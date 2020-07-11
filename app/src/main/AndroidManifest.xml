@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fision.tel2_0"
+    android:versionCode="2"
+    android:versionName="2.7">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Item_add_activity"
+            android:label="@string/title_activity_item_add" />
+        <activity
+            android:name=".ImportContactActivity"
+            android:label="@string/title_activity_import_contact" />
+        <activity
+            android:name=".aboutActivity"
+            android:label="关于app" />
+        <activity
+            android:name=".UpdateAndDeleteContactActivity"
+            android:label="联系人删改" />
+        <activity android:name=".SettingActivity"></activity>
+    </application>
+
+</manifest>

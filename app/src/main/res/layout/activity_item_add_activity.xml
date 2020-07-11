@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+    <EditText
+        android:id="@+id/t_name"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:singleLine="true"/>
+	<EditText
+        android:id="@+id/t_num"
+        android:inputType="phone"
+        android:hint="@string/number"
+        android:layout_below="@id/t_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" 
+        android:singleLine="true"/>
+
+	<Button
+	    android:id="@+id/bt_save"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="25dp"
+	    android:text="@string/savaContact" />
+
+	<ImageView
+	    android:id="@+id/tx_image"
+	    android:layout_width="300dp"
+	    android:layout_height="300dp"
+	    android:layout_above="@+id/bt_save"
+	    android:layout_alignLeft="@+id/t_num"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/t_num"
+	    android:layout_marginTop="10dp"
+	    android:src="@android:drawable/ic_menu_gallery" />
+
+</RelativeLayout>

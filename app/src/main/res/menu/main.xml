@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fision.tel2_0.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+		android:visible="false"/>
+	<item android:id="@+id/id_item_add"
+	    android:title="@string/item_add"
+	    android:orderInCategory="100"/>
+	<item android:id="@+id/id_item_delete"
+		android:title="@string/item_updateordel"
+		android:orderInCategory="100"/>
+	<item android:id="@+id/id_item_import"
+	    android:title="@string/item_import"
+	    android:orderInCategory="100"
+		android:visible="false"/>
+	<item android:id="@+id/id_export_bak"
+		android:title="@string/item_export_bak"
+		android:orderInCategory="100"/>
+	<item android:id="@+id/id_import_bak"
+		android:title="@string/item_import_bak"
+		android:orderInCategory="100"/>
+	<item android:id="@+id/id_about"
+		android:title="@string/item_about"
+		android:orderInCategory="100"/>
+</menu>

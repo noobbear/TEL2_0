@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">图片电话簿</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="item_add">添加</string>
+    <string name="item_import">从通讯录导入</string>
+    <string name="title_activity_item_add">添加一个联系人</string>
+    <string name="title_activity_import_contact">导入联系人</string>
+    <string name="name">联系人名字</string>
+    <string name="number">电话号码</string>
+    <string name="savaContact">保存联系人</string>
+    <string name="item_about">关于</string>
+    <string name="item_export_bak">生成备份</string>
+    <string name="item_import_bak">从备份导入</string>
+    <string name="item_updateordel">联系人删改</string>
+    <string name="about_text">关于app：\n该app目前处于开发初期，会逐步完善。开发初衷主要是供家里使用智能机，却不识字的老人拨打电话。如有建议可以发送邮件到邮箱:fx@fision.com</string>
+    <string name="use">使用说明：\n主界面长按图片-拨打电话\n联系人管理-长按删除\n直接拨打电话-\n需要权限，拨号前不编辑，\n直接拨打\n锁定联系人-无法删改联系人\n图片横向充满-按比例撑大图片</string>
+</resources>
